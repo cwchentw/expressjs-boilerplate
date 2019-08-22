@@ -1,6 +1,6 @@
-# nodejs-boilerplate
+# expressjs-boilerplate
 
-This repo is a minimal Node.js project starter.
+This repo is a minimal [Express](https://expressjs.com/) project starter.
 
 ## System Requirements.
 
@@ -8,14 +8,16 @@ This repo is a minimal Node.js project starter.
 
 ## Technology Stacks
 
-Tools used during development phase:
+### Development Phase
 
 * [Babel](https://babeljs.io/)
 * [Flow](https://flow.org/)
 * [ESLint](https://eslint.org/)
 * [Gulp](https://gulpjs.com/) and related packages
  
-There is no any external dependency on generated output.
+### Production Phase
+
+* [Express](https://expressjs.com/)
 
 ## Usage
 
@@ -24,8 +26,8 @@ There is no any external dependency on generated output.
 Clone this repo and install all the tools:
 
 ```
-$ git clone https://github.com/cwchentw/nodejs-boilerplate.git
-$ my nodejs-boilerplate myapp
+$ git clone https://github.com/cwchentw/expressjs-boilerplate.git
+$ my expressjs-boilerplate myapp
 $ cd myapp
 $ npm install
 ```
